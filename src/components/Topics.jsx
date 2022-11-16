@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { Link } from 'react-router-dom';
-
+import '../App.css';
 // want to add col span differ like todayList
 const Topics = () => {
   const [data, setData] = React.useState([])
